@@ -1,0 +1,4 @@
+[pep8]
+ignore = E402
+[flake8]
+ignore = E501,W504,W503,E402,I100,I101,I201
