@@ -1,7 +1,7 @@
 {
    py_gil
    Helgrind:Misc
-   ..
+   ...
    fun:take_gil
    fun:_PyEval_InitGIL
    ...
