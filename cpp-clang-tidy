@@ -1,36 +1,7 @@
 ---
-Checks:          '*,-cert-err58-cpp,-clang-analyzer-cplusplus.NewDeleteLeaks,-clang-diagnostic*,-clang-diagnostic-ctad-maybe-unsupported,-clang-diagnostic-gnu-zero-variadic-macro-arguments,-clang-diagnostic-ignored-optimization-argument,-cppcoreguidelines-avoid-magic-numbers,-cppcoreguidelines-init-variables,-cppcoreguidelines-non-private-member-variables-in-classes,-cppcoreguidelines-owning-memory,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-pro-type-vararg,-fuchsia-default-arguments*,-fuchsia-default-arguments-calls,-fuchsia-default-arguments-declarations,-fuchsia-overloaded-operator,-fuchsia-statically-constructed-objects,-google-build-using-namespace,-google-readability*,-google-readability-namespace-comments,-hicpp-braces-around-statements,-hicpp-no-array-decay,-hicpp-signed-bitwise,-hicpp-vararg,-llvm-else-after-return,-llvm-header-guard,-llvm-include-order,-llvmlibc*,-llvm-namespace-comment,-llvm-qualified-auto,-misc-non-private-member-variables-in-classes,-misc-no-recursion,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-readability*,-readability-implicit-bool-conversion,-readability-magic-numbers,-readability-redundant-access-specifiers,-altera-struct-pack-align,-android*,-hicpp-uppercase-literal-suffix,-*narrowing-conversions,-cppcoreguidelines-pro-type-reinterpret-cast,-cppcoreguidelines-pro-type-cstyle-cast,-bugprone-lambda-function-name,-bugprone-reserved-identifier,-hicpp-member-init,-hicpp-member-init,-cppcoreguidelines-pro-type-member-init'
+Checks:          '*,-cert-err58-cpp,-clang-analyzer-cplusplus.NewDeleteLeaks,-clang-diagnostic*,-clang-diagnostic-ctad-maybe-unsupported,-clang-diagnostic-gnu-zero-variadic-macro-arguments,-clang-diagnostic-ignored-optimization-argument,-cppcoreguidelines-avoid-magic-numbers,-cppcoreguidelines-init-variables,-cppcoreguidelines-non-private-member-variables-in-classes,-cppcoreguidelines-owning-memory,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-pro-type-vararg,-fuchsia-default-arguments*,-fuchsia-default-arguments-calls,-fuchsia-default-arguments-declarations,-fuchsia-overloaded-operator,-fuchsia-statically-constructed-objects,-google-build-using-namespace,-google-readability*,-google-readability-namespace-comments,-hicpp-braces-around-statements,-hicpp-no-array-decay,-hicpp-signed-bitwise,-hicpp-vararg,-llvm-else-after-return,-llvm-header-guard,-llvm-include-order,-llvmlibc*,-llvm-namespace-comment,-llvm-qualified-auto,-misc-non-private-member-variables-in-classes,-misc-no-recursion,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-readability*,-readability-implicit-bool-conversion,-readability-magic-numbers,-readability-redundant-access-specifiers,-altera-struct-pack-align,-android*,-hicpp-uppercase-literal-suffix,-*narrowing-conversions,-cppcoreguidelines-pro-type-reinterpret-cast,-cppcoreguidelines-pro-type-cstyle-cast,-bugprone-lambda-function-name,-bugprone-reserved-identifier,-hicpp-member-init,-hicpp-member-init,-cppcoreguidelines-pro-type-member-init,-google-explicit-constructor,-hicpp-explicit-conversions'
 WarningsAsErrors: ''
 HeaderFilterRegex: ''
 AnalyzeTemporaryDtors: false
 UseColor: false
 FormatStyle:     none
-CheckOptions:
-  - key:             cert-dcl16-c.NewSuffixes
-    value:           'L;LL;LU;LLU'
-  - key:             cert-oop54-cpp.WarnOnlyIfThisHasSuspiciousField
-    value:           '0'
-  - key:             cert-str34-c.DiagnoseSignedUnsignedCharComparisons
-    value:           '0'
-  - key:             cppcoreguidelines-explicit-virtual-functions.IgnoreDestructors
-    value:           '1'
-  - key:             cppcoreguidelines-non-private-member-variables-in-classes.IgnoreClassesWithAllMemberVariablesBeingPublic
-    value:           '1'
-  - key:             llvm-else-after-return.WarnOnConditionVariables
-    value:           '0'
-  - key:             llvm-else-after-return.WarnOnUnfixable
-    value:           '0'
-  - key:             llvm-qualified-auto.AddConstToQualified
-    value:           '0'
-  - key:             modernize-loop-convert.MaxCopySize
-    value:           '16'
-  - key:             modernize-loop-convert.MinConfidence
-    value:           reasonable
-  - key:             modernize-loop-convert.NamingStyle
-    value:           CamelCase
-  - key:             modernize-pass-by-value.IncludeStyle
-    value:           llvm
-  - key:             modernize-replace-auto-ptr.IncludeStyle
-    value:           llvm
-  - key:             modernize-use-nullptr.NullMacros
-    value:           'NULL'
