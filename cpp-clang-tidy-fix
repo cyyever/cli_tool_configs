@@ -1,5 +1,5 @@
 ---
-Checks:          'modernize*,-modernize-use-nodiscard,-modernize-use-trailing-return-type'
+Checks:          'modernize*,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-modernize-use-auto,-modernize-avoid-c-arrays'
 AnalyzeTemporaryDtors: false
 UseColor: false
 FormatStyle:     file
