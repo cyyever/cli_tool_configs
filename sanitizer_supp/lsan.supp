@@ -1,1 +1,3 @@
 leak:libomp.so
+leak:pybind11::cpp_function::initialize_generic
+leak:pybind11::cpp_function::strdup_guard::operator
