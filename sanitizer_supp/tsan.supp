@@ -9,3 +9,4 @@ race:cv::detail::PtrOwnerImpl<cv::ParallelJob
 race:cv::DefaultDeleter<cv::ParallelJob>
 race:cv::WorkerThread::thread_body
 race:std::stop_token::stop_token
+race:libomp.so
