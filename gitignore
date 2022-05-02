@@ -1,3 +1,4 @@
 *.PVS-Studio.*
 __pycache__/
 .pyre/
+session
