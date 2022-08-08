@@ -1,4 +1,11 @@
 {
+   broadcast_no_lock
+   Helgrind:Misc
+   fun:pthread_cond_broadcast_WRK
+   fun:pthread_cond_broadcast
+   ...
+}
+{
    mutex
    Helgrind:Race
    fun:_ZNSt5mutex6unlockEv
@@ -59,4 +66,15 @@
    fun:_ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev
    ...
 }
-
+{
+    thread_local
+   Helgrind:Race
+   fun:_ZNSt3__119__thread_local_dataEv
+   ...
+}
+{
+  race_thread
+   Helgrind:Race
+    ...
+    obj:/lib/libthr.so.3
+}
