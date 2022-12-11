@@ -17,6 +17,8 @@ disable=raw-checker-failed,
         useless-suppression,
         deprecated-pragma,
         missing-module-docstring,
+        invalid-name,
+        unused-argument,
         missing-function-docstring,
         use-symbolic-message-instead,
         missing-class-docstring
