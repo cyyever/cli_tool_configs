@@ -1,5 +1,5 @@
 ---
-Checks:          'modernize*,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-modernize-use-auto,-modernize-avoid-c-arrays,-modernize-deprecated-headers,-modernize-concat-nested-namespaces,-modernize-return-braced-init-list'
+Checks:          'modernize*,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-modernize-use-auto,-modernize-avoid-c-arrays,-modernize-deprecated-headers,-modernize-concat-nested-namespaces,-modernize-return-braced-init-list,-hicpp-named-parameter'
 AnalyzeTemporaryDtors: false
 UseColor: false
 FormatStyle:     file

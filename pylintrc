@@ -22,3 +22,7 @@ disable=raw-checker-failed,
         missing-function-docstring,
         use-symbolic-message-instead,
         missing-class-docstring
+
+[TYPECHECK]
+
+ignored-modules = torch
