@@ -21,7 +21,16 @@ disable=raw-checker-failed,
         unused-argument,
         missing-function-docstring,
         use-symbolic-message-instead,
-        missing-class-docstring
+        wrong-import-position,
+        wrong-import-order,
+        missing-class-docstring,
+        line-too-long,
+        too-many-public-methods,
+        too-many-arguments,
+        too-many-branches,
+        too-many-statements,
+        too-many-instance-attributes,
+        too-few-public-methods
 
 [TYPECHECK]
 
