@@ -1,4 +1,5 @@
-set window-width 30000
-set window-height 30000
+set window-width 300000
+set window-height 300000
 set adjust-open "best-fit"
+set adjust_window width
 set highlight-transparency 0.3
