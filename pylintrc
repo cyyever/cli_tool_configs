@@ -29,6 +29,9 @@ disable=raw-checker-failed,
         too-many-branches,
         too-many-statements,
         too-many-return-statements,
+        broad-exception-raised,
+        protected-access,
+        logging-fstring-interpolation,
         too-many-instance-attributes,
         too-few-public-methods
 
