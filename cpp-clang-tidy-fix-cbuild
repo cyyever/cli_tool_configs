@@ -1,5 +1,4 @@
 ---
 Checks:          '-modernize*'
-AnalyzeTemporaryDtors: false
 UseColor: false
 FormatStyle:     file
