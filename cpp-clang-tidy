@@ -6,10 +6,16 @@ Checks:
 -abseil*,
 -bugprone-easily-swappable-parameters,
 -bugprone-swapped-arguments,
--cppcoreguidelines-non-private-member-variables-in-classes,-readability-identifier-length,
+-cert*
+-cppcoreguidelines-non-private-member-variables-in-classes,
+-fuchsia*,
 -llvmlibc*,
+-llvm-header-guard,
 -misc-non-private-member-variables-in-classes,
+-misc-include-cleaner,
 -modernize-use-trailing-return-type,
+-readability-identifier-length,
+-readability-math-missing-parentheses,
 -*default-argument*
 '
 WarningsAsErrors: '*'
