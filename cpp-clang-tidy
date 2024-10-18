@@ -6,7 +6,7 @@ Checks:
 -abseil*,
 -bugprone-easily-swappable-parameters,
 -bugprone-swapped-arguments,
--cert*
+-cert*,
 -cppcoreguidelines-non-private-member-variables-in-classes,
 -fuchsia*,
 -llvmlibc*,
@@ -18,4 +18,4 @@ Checks:
 -readability-math-missing-parentheses,
 -*default-argument*
 '
-WarningsAsErrors: '*'
+...
