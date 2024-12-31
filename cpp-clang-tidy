@@ -3,19 +3,26 @@ Checks:
 '
 *,
 -altera*,
+-altera-unroll-loops,
 -abseil*,
 -bugprone-easily-swappable-parameters,
 -bugprone-swapped-arguments,
 -cert*,
 -cppcoreguidelines-non-private-member-variables-in-classes,
 -fuchsia*,
+-hicpp-special-member-functions,
 -llvmlibc*,
 -llvm-header-guard,
 -misc-non-private-member-variables-in-classes,
 -misc-include-cleaner,
+-modernize-use-nodiscard,
 -modernize-use-trailing-return-type,
 -readability-identifier-length,
+-readability-implicit-bool-conversion,
 -readability-math-missing-parentheses,
 -*default-argument*
 '
+CheckOptions:
+  cppcoreguidelines-special-member-functions.AllowSoleDefaultDtor: true
+  cppcoreguidelines-special-member-functions.AllowImplicitlyDeletedCopyOrMove: true
 ...
