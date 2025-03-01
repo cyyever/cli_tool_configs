@@ -35,7 +35,3 @@ disable=raw-checker-failed,
         too-many-instance-attributes,
         too-many-ancestors,
         too-few-public-methods
-
-[TYPECHECK]
-
-ignored-modules = torch
