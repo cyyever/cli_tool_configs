@@ -14,6 +14,7 @@ Checks:
 -llvmlibc*,
 -llvm-header-guard,
 -llvm*,
+-*magic-numbers*,
 -misc-non-private-member-variables-in-classes,
 -modernize-use-nodiscard,
 -modernize-use-trailing-return-type,
