@@ -34,4 +34,5 @@ disable=raw-checker-failed,
         logging-fstring-interpolation,
         too-many-instance-attributes,
         too-many-ancestors,
-        too-few-public-methods
+        too-few-public-methods,
+        broad-exception-caught
